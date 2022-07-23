@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+  /* margin-top: 10px; */
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+body {
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.navbar {
+  display: flex;
+}
+ul {
+  display: flex;
+}
+li {
+  display: inline;
+  padding-left: 20px;
+  color: #f4be2c;
+}
+.hero-heading {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+  color: #f4be2c;
+}
+.button-small,
+.button-large {
+  padding: 0.3em 1.5em;
+  background-color: #e6425e;
+  margin-left: 10px;
+  border-radius: 0.6em;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-color: #e6425e;
+}
+
+.button-large {
+  margin: auto;
+  display: flex;
+}
+.logo img {
+  height: 40px;
+  width: 90px;
+  margin-left: 10px;
+}
+.button-small {
+  margin-left: 90px;
+}
+
+/* .container {
+  opacity: 0.3;
+} */
